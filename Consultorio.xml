@@ -6,17 +6,17 @@
     <members>
         <member name="T:AgendaDAO">
             <summary>
-            Classe que é responsável pela persistencia dos agendamentos.
+            Classe que é responsável pela persistência dos agendamentos.
             </summary>
         </member>
         <member name="T:ErroDAO">
             <summary>
-            Classe responsável pela persistencia dos erros gerados ao decorrer da execução.
+            Classe responsável pela persistência dos erros gerados ao decorrer da execução.
             </summary>
         </member>
         <member name="T:PacienteDAO">
             <summary>
-            Classe responsável pela persistencia dos dados do cadastro dos pacientes.
+            Classe responsável pela persistência dos dados do cadastro dos pacientes.
             </summary>
         </member>
         <member name="T:Agendamentos">
@@ -62,7 +62,7 @@
         </member>
         <member name="M:ValidaAgendamento.VerificaAgendamentoCliente(Paciente,System.Collections.Generic.List{Agendamentos},ValidaData)">
             <summary>
-            Método que verifica se o paciente possui uma consulta futura
+            Método que verifica se o paciente possui uma consulta futura.
             </summary>
             <param name="pct"></param>
             <param name="agds"></param>
@@ -71,7 +71,7 @@
         </member>
         <member name="M:ValidaAgendamento.VerificaDataAgendamento(System.String,System.String,System.Collections.Generic.List{Agendamentos})">
             <summary>
-            Verifica se o cpf e a data passada estão na lista de agendamentos
+            Verifica se o cpf e a data passada estão na lista de agendamentos.
             </summary>
             <param name="cpf"></param>
             <param name="data"></param>
@@ -85,7 +85,7 @@
         </member>
         <member name="M:ValidaCpf.VerificaCpf(System.String)">
             <summary>
-            Verifica se o cpf passado é um cpf válido
+            Verifica se o cpf passado é um cpf válido.
             </summary>
             <param name="cpf"></param>
             <returns>True se sim. False se não.</returns>
@@ -105,14 +105,14 @@
         </member>
         <member name="M:ValidaData.VerificaData(System.DateTime)">
             <summary>
-            Verifica se a data é maior ou igual a data atual
+            Verifica se a data é maior ou igual a data atual.
             </summary>
             <param name="data"></param>
-            <returns>true se sim e false se não</returns>
+            <returns>true se sim e false se não.</returns>
         </member>
         <member name="M:ValidaData.VerificaFormatoData(System.String)">
             <summary>
-            Verifica se a string recebida como parâmetro consegue ser transformada no formato "dd/MM/yyyy" de data
+            Verifica se a string recebida como parâmetro consegue ser transformada no formato "dd/MM/yyyy" de data.
             </summary>
             <param name="data"></param>
             <returns>True caso sim.False caso não.</returns>
@@ -121,7 +121,7 @@
             <summary>
             Verifica se idade é menor que 13 anos.
             </summary>
-            <param name="data">Data a ser feito o cáculo da idade</param>
+            <param name="data">Data a ser feito o cálculo da idade</param>
             <returns>True se sim. False se não.</returns>
         </member>
         <member name="T:ValidaHora">
@@ -131,21 +131,21 @@
         </member>
         <member name="M:ValidaHora.VerificaFormatoHora(System.String)">
             <summary>
-            Verifica se a hora passada como argumento está no formato DDDD(Numeral)
+            Verifica se a hora passada como argumento está no formato DDDD(Numeral).
             </summary>
             <param name="hora"></param>
             <returns>True se sim.False se não.</returns>
         </member>
         <member name="M:ValidaHora.ValidaHoraIni(System.String)">
             <summary>
-            Verifica se a hora inicial é uma hora válida
+            Verifica se a hora inicial é uma hora válida.
             </summary>
             <param name="hora"></param>
             <returns>True se sim.False se não.</returns>
         </member>
         <member name="M:ValidaHora.ValidaHoraFim(System.String,System.String)">
             <summary>
-            Verifica se a hora final é uma hora válida
+            Verifica se a hora final é uma hora válida.
             </summary>
             <param name="horaIni"></param>
             <param name="horaFim"></param>
@@ -153,7 +153,7 @@
         </member>
         <member name="M:ValidaHora.VerificaHoraAgendamento(System.String,System.String,System.String,System.Collections.Generic.List{Agendamentos})">
             <summary>
-            Verifica se a hora passada como parâmetro existe na lista de agendamentos
+            Verifica se a hora passada como parâmetro existe na lista de agendamentos.
             </summary>
             <param name="cpf"></param>
             <param name="data"></param>
@@ -181,12 +181,12 @@
         </member>
         <member name="T:ValidaNome">
             <summary>
-            Classe responsável pelos métodos de validação de um nome
+            Classe responsável pelos métodos de validação de um nome.
             </summary>
         </member>
         <member name="M:ValidaNome.VerificaNome(System.String)">
             <summary>
-            Verfica se o nome possui pelo menos 5 caracteres
+            Verfica se o nome possui pelo menos 5 caracteres.
             </summary>
             <param name="nome"></param>
             <returns>True se sim.False se não.</returns>
@@ -223,7 +223,7 @@
         </member>
         <member name="T:View">
             <summary>
-            Classe responsável pela interação com usuário.Irá receber os input e interagir com a classe controler
+            Classe responsável pela interação com usuário.Irá receber os input e interagir com a classe controler.
             </summary>
         </member>
     </members>
